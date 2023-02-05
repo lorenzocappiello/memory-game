@@ -51,11 +51,11 @@ img {
 @media(max-width: 500px){
     .memory-game-title {
         margin-top: 24px; 
-        font-size: 48px; 
+        font-size: 36px; 
     }
     .memory-game-subtitle {
         margin-bottom: -12px; 
-        font-size: 48px; 
+        font-size: 36px; 
     }
 }
 
