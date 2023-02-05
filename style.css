@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e272e;
+} 
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* Header */ 
+
+.memory-game-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 96px; 
+    text-align: center;
+    color: lightblue; 
+    text-transform: uppercase; 
+    margin-top: 16px; 
+}
+
+.memory-game-subtitle {
+    font-family: 'Fredoka One', cursive;
+    font-size: 96px; 
+    text-align: center;
+    color: lightgreen; 
+    text-transform: uppercase; 
+    margin-top: -16px; 
+    margin-bottom: -16px; 
+}
+
+@media(max-width: 1000px){
+    .memory-game-title {
+        margin-top: 12px; 
+        font-size: 72px;
+    }
+    .memory-game-subtitle {
+        margin-bottom: -24px; 
+        font-size: 72px;
+    }
+}
+
+@media(max-width: 500px){
+    .memory-game-title {
+        margin-top: 24px; 
+        font-size: 48px; 
+    }
+    .memory-game-subtitle {
+        margin-bottom: -12px; 
+        font-size: 48px; 
+    }
+}
+
+/* Game Section */ 
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    margin-bottom: 36px; 
+}
+
+@media(max-width: 1000px){
+    .main-container {
+        max-width: 620px;
+    }
+}
+
+@media(max-width: 500px){
+    .main-container {
+        max-width: 420px;
+    }
+}
+
+/* Grid */ 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+@media(max-width: 1000px){
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(max-width: 500px){
+    .grid {
+        grid-template-columns: repeat(4, 5fr);
+    }
+}
+
+/* Card */ 
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 1);
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+}
+
+.card img {
+    padding: 1rem;
+    opacity: 0;
+}
+
+.selected {
+    outline: 3px solid lightblue;
+    outline-offset: -3px;
+    border-radius: 8px;
+}
+
+.selected img {
+    opacity: 1;
+}
+
+.matched {
+    outline: 3px solid lightgreen;
+}
+
+/* Footer */ 
+
+.footer {
+    margin-top: -36px; 
+    margin-bottom: 24px; 
+}
+
+@media(max-width: 1000px){
+    .footer {
+        margin-top: -48px;
+        margin-bottom: 24px; 
+    }
+}
+
+@media(max-width: 500px){
+    .footer {
+        margin-top: -48px;
+        margin-bottom: 24px; 
+    }
+    .link {
+        margin-top: -6px; 
+    }
+}
+
+.copyright {
+    font-family: 'Comfortaa', cursive;
+    font-size: 8px; 
+    color: white; 
+    text-align: center;
+}
+
+.gamespace-link {
+    font-family: 'Comfortaa', cursive;
+    font-size: 8px; 
+    text-decoration: none;
+    color: white; 
+}
