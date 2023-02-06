@@ -17,6 +17,10 @@ img {
 
 /* Header */ 
 
+.header {
+    margin-top: -12px; 
+}
+
 .memory-game-title {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 500;
@@ -24,7 +28,6 @@ img {
     text-align: center;
     color: lightblue; 
     text-transform: uppercase; 
-    margin-top: 16px; 
 }
 
 .memory-game-subtitle {
@@ -36,6 +39,28 @@ img {
     text-transform: uppercase; 
     margin-top: -16px; 
     margin-bottom: -16px; 
+}
+
+.timer {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px; 
+    text-align: center;
+    color: white; 
+    text-transform: uppercase; 
+    margin-top: 16px; 
+    margin-bottom: -20px; 
+}
+
+#btnStop {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px; 
+    text-transform: uppercase;
+    color: white; 
+    padding: 6px 6px; 
+    border-radius: 6px;
+    border-color: white;
+    background-color: transparent;
+    margin-left: 16px; 
 }
 
 @media(max-width: 1000px){
