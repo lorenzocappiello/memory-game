@@ -43,6 +43,7 @@ img {
         font-size: 72px;
     }
     .memory-game-subtitle {
+        margin-top: 2px; 
         margin-bottom: -24px; 
         font-size: 72px;
     }
