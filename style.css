@@ -19,6 +19,7 @@ img {
 
 .header {
     margin-top: -6px; 
+    margin-bottom: -6px; 
 }
 
 .memory-game-title {
@@ -28,6 +29,7 @@ img {
     text-align: center;
     color: lightblue; 
     text-transform: uppercase; 
+    margin-bottom: -6px; 
 }
 
 .memory-game-subtitle {
@@ -65,11 +67,11 @@ img {
 @media(max-width: 1000px){
     .memory-game-title {
         margin-top: 12px; 
-        font-size: 72px;
+        font-size: 63px;
     }
     .memory-game-subtitle {
         margin-bottom: -24px; 
-        font-size: 72px;
+        font-size: 63px;
     }
 }
 
@@ -77,11 +79,11 @@ img {
     .memory-game-title {
         margin-top: 24px; 
         font-size: 36px; 
-        margin-bottom: 3px; 
     }
     .memory-game-subtitle {
-        margin-bottom: -12px; 
         font-size: 36px; 
+        margin-top: -9px; 
+        margin-bottom: -18px; 
     }
 }
 
