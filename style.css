@@ -70,12 +70,12 @@ img {
 
 @media(max-width: 1000px){
     .memory-game-title {
-        margin-top: 8px; 
-        font-size: 55px;
+        margin-top: 6px; 
+        font-size: 53px;
     }
     .memory-game-subtitle {
         margin-bottom: -24px; 
-        font-size: 55px;
+        font-size: 53px;
     }
 }
 
@@ -175,7 +175,7 @@ img {
 
 @media(max-width: 1000px){
     .footer {
-        margin-top: -48px;
+        margin-top: -60px;
         margin-bottom: 24px; 
     }
 }
