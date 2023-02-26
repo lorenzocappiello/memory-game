@@ -176,14 +176,14 @@ img {
 
 @media(max-width: 1000px){
     .footer {
-        margin-top: -60px;
+        margin-top: -48px;
         margin-bottom: 24px; 
     }
 }
 
 @media(max-width: 500px){
     .footer {
-        margin-top: -60px;
+        margin-top: -48px;
         margin-bottom: 24px; 
     }
     .link {
