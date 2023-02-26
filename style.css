@@ -71,11 +71,11 @@ img {
 @media(max-width: 1000px){
     .memory-game-title {
         margin-top: 8px; 
-        font-size: 63px;
+        font-size: 55px;
     }
     .memory-game-subtitle {
         margin-bottom: -24px; 
-        font-size: 63px;
+        font-size: 55px;
     }
 }
 
