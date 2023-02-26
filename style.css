@@ -176,7 +176,7 @@ img {
 
 @media(max-width: 1000px){
     .footer {
-        margin-top: -48px;
+        margin-top: -36px;
         margin-bottom: 24px; 
     }
 }
